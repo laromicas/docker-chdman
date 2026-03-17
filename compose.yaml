@@ -1,0 +1,7 @@
+services:
+  chdman:
+    build: .
+    # Or use 'image: your-image-name' if you already built it
+    volumes:
+      - .:/app
+    working_dir: /app
